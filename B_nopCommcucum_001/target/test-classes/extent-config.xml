@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<extentreports>
+    <configuration>
+        <!-- Report Name -->
+        <reportName>My Test Automation Report</reportName>
+
+        <!-- Document Title (displayed in the browser tab) -->
+        <documentTitle>Test Automation Report</documentTitle>
+
+        <!-- Report Theme (standard or dark) -->
+        <theme>standard</theme>
+        
+        <!-- Automatically generate logs for failed tests -->
+        <autoCreateRelativePathMedia>true</autoCreateRelativePathMedia>
+
+        <!-- Display test timeline in the report -->
+        <timelineEnabled>true</timelineEnabled>
+
+        <!-- Specify System Information (optional) -->
+        <systemInfo>
+            <param>Environment</param>
+            <value>QA</value>
+        </systemInfo>
+        <systemInfo>
+            <param>Browser</param>
+            <value>Chrome</value>
+        </systemInfo>
+        <!-- Add more systemInfo parameters as needed -->
+
+        <!-- Add Report Templates (optional) -->
+        <!-- For example, adding a template to display custom attributes -->
+        <!-- <customGrid>
+            <grid node="true">
+                <attribute name="Platform" value="Windows" />
+                <attribute name="Parallel" value="Scenarios" />
+                <attribute name="Locale" value="en-us" />
+                <attribute name="Browser" value="Chrome" />
+                <attribute name="Version" value="92" />
+            </grid>
+        </customGrid> -->
+
+        <!-- Specify Test View Configuration (optional) -->
+        <!-- <view>
+            <tabs>
+                <tab name="Test View">
+                    <parameter name="Time Format">MMM dd, yyyy hh:mm a</parameter>
+                </tab>
+            </tabs>
+        </view> -->
+    </configuration>
+</extentreports>
